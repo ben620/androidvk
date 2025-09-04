@@ -8,6 +8,7 @@ project("androidvk")
 # Creates your game shared library. The name must be the same as the
 # one used for loading in your Kotlin/Java or AndroidManifest.txt files.
 add_library(androidvk SHARED
+        VKDepthReader.cpp
         main.cpp)
 
 # Searches for a package provided by the game activity dependency
